@@ -1,5 +1,5 @@
 const gulp        = require('gulp');
-const browserSync = require('browser-sync');
+const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
@@ -7,7 +7,7 @@ const rename = require("gulp-rename");
 
 gulp.task('server', function() {
 
-    browserSync({
+    browserSync.init({
         server: {
             baseDir: "src"
         }
@@ -17,7 +17,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('styles', function() {
-    return gulp.src("src/aseets/sass/**/*.+(scss|sass)")
+    return gulp.src("src/assets/sass/**/*.+(scss|sass)")
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({suffix: '.min', prefix: ''}))
         .pipe(autoprefixer())

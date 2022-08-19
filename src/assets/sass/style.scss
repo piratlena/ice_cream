@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'base/variables';
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Londrina Shadow';
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    list-style-type: none;
+}
+
+
+
+
+@import 'blocks/header';
+@import 'blocks/hero';

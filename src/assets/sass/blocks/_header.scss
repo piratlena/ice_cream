@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $main-color;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__link{
+        display: block;
+        color:  black;
+        font-family: 'Londrina Shadow';
+        font-weight: 700;
+        font-size: 24px;
+        width: 100px;
+        &:hover {
+            list-style-type: none;
+            text-decoration: none;
+            color: #CC2A41;
+        }
+
+    }
+    &__text{
+        display: block;
+        font-family: 'Londrina Shadow';
+        color:  #CC2A41;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+            transition: 1s ease-out;
+        }
+        
+    }
+}
