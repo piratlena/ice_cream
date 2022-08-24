@@ -1,7 +1,9 @@
 .hero {
-    min-height: 892px;
+    min-height: 122px;
     background-color: $main-color;
-    hr {
-        background-color: #91972a;
+    &__divider {
+    width: 100vw;
+    height: 1px;
+    background: black;
     }
 }

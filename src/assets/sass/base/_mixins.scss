@@ -1,0 +1,9 @@
+@mixin after_header {
+    &:after{
+    content: '';
+    width: 100vw;
+    height: 1px;
+    background: black;
+    z-index: 1;
+    }
+}

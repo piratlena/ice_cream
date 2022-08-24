@@ -1,0 +1,23 @@
+.menu {
+    min-height: 570px;
+    
+    background: $main-color;
+    
+    
+    &__sliders {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateX(-5%);
+        margin-top: -250px;
+        
+    }
+    &__item {
+        height: 330px;
+    }
+    &__item-active {
+        height: 700px;
+        margin-top: -50px;
+        z-index: 4;
+    }
+}

@@ -1,10 +1,12 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
 @import 'base/variables';
+@import 'base/mixins';
 
 * {
     font-family: 'Nunito', sans-serif;
     font-family: 'Londrina Shadow';
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -12,12 +14,12 @@
     margin: 0 auto;
 }
 
-a {
-    list-style-type: none;
-}
-
-
 
 
 @import 'blocks/header';
 @import 'blocks/hero';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/menu';
+@import 'blocks/featured';
