@@ -1,0 +1,42 @@
+.banner {
+    min-height: 896px;
+    background-color: $red-color;
+    position: relative;
+    &__title{
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        padding-right: 200px;
+        padding-left: 200px;
+        top: 220px; 
+        font-weight: 700;
+        font-size: 120px;
+        font-family: 'Londrina Shadow';
+        color: $text-color;
+        text-align: center;
+       
+    }
+    &__overlay {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 4rem;
+    }
+    &__box_first {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box_second {
+        display: flex;
+        justify-content: space-between;
+        transform: translateX(10%)
+    }
+    &__text {
+        width: 350px;
+        font-weight: 400;
+        font-size: 60px;
+        font-family: 'Londrina Shadow';
+        line-height: 45px;
+        rotate: -5deg;
+        color: rgba(255, 255, 255,.4);
+    }
+}
