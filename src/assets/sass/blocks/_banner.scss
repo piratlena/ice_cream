@@ -2,6 +2,7 @@
     min-height: 896px;
     background-color: $red-color;
     position: relative;
+    overflow: hidden;
     &__title{
         display: block;
         position: absolute;
@@ -19,18 +20,24 @@
     &__overlay {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 4rem;
+        row-gap: 3.5rem;
+       
     }
     &__box_first {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        animation: moveBanner1 10s linear infinite;
     }
     &__box_second {
-        display: flex;
-        justify-content: space-between;
-        transform: translateX(10%)
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        transform: translateX(10%);
+        animation: moveBanner1 7s linear infinite;
+       
+        
     }
     &__text {
+        display: block;
         width: 350px;
         font-weight: 400;
         font-size: 60px;
@@ -38,5 +45,6 @@
         line-height: 45px;
         rotate: -5deg;
         color: rgba(255, 255, 255,.4);
+        
     }
 }

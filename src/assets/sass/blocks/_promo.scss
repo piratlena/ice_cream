@@ -49,5 +49,13 @@
         font-family: 'Roboto';
         color: $red-color;
     }
-  
+    &__title_1 {
+        animation: moveInLeft .8s ease 1;
+    }
+    &__title_2 {
+        animation: moveInRight .8s ease 1;
+    }
+    &__title_3 {
+        animation: moveInBottom .8s ease 1;
+    }
 }

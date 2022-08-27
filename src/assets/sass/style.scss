@@ -2,6 +2,7 @@
 @import 'libs/font';
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animations';
 
 * {
     font-family: 'Nunito', sans-serif;
@@ -10,14 +11,14 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 
 
 @import 'blocks/header';
-@import 'blocks/hero';
+@import 'blocks/navigation';
 @import 'blocks/button';
 @import 'blocks/promo';
 @import 'blocks/title';
@@ -25,3 +26,4 @@
 @import 'blocks/featured';
 @import 'blocks/advantages';
 @import 'blocks/banner';
+@import 'blocks/new';

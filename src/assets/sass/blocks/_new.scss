@@ -1,0 +1,61 @@
+.new {
+    min-height: 100vh;
+    background: url('../img/bg_milkshakes.png') no-repeat 50%/cover;
+    position: relative;
+    &__content {
+        height: 350px;
+        padding:60px 336px 60px 336px;
+        background: rgba(255, 255, 255, .5);
+        border-bottom: $red-color solid 1px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__heading span {
+        font-weight: 400;
+        font-size: 72px;
+        color: $red-color;
+    }
+    & h3 {
+        font-weight: 400;
+        font-size: 64px;
+        color: $text-color-black;
+        font-family: 'Nunito';
+        font-weight: bold;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        width: 726px;
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+    }
+    &__star {
+        display: block;
+        
+        top: 30%;
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+    &__star_descr {
+        display: block;
+        width: 150px;
+        position: absolute;
+        rotate: -15deg;
+        top: 20%;
+        right: 20%;
+        
+        font-family: 'Nunito';
+        color: $second-text-color;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

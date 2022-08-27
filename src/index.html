@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Ice cream</title>
 </head>
 <body>
-    <section class="hero">
+    <section class="navigation">
         <div class="container">
             <header class="header">
                 <nav class="header__navbar">
@@ -22,17 +23,17 @@
             </header>
             
         </div>
-        <div class="hero__divider"></div>
+        <div class="navigation__divider"></div>
         
     </section>
 
     <section class="promo">
         <div class="container">
-            <div class="promo__phrase">
-                <h1 class="title_1">Freshly</h1>
-                <h1 class="title_2">Churned</h1>
-                <h1 class="title_3">Every Day.</h1>
-            </div>
+            <h1 class="promo__phrase">
+                <span class="promo__title_1">Freshly</span>
+                <span class="promo__title_2">Churned</span>
+                <span class="promo__title_3">Every Day.</span>
+            </h1>
 
             <div class="promo__star">
                 <img src="assets/img/round.png" alt="star">
@@ -59,15 +60,29 @@
     <section class="featured">
         <div class="featured__title">FEATURED IN</div>
         <div class="featured__carousel">
-            <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
-            <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
-        </div>
+            <div class="featured__carousel__items-1">
+                <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
+            </div>
+
+             <div class="featured__carousel__items-2">
+                <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/Food-Network-Logo 1.svg" alt="food" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/cosmopolitan-logo 2.svg" alt="cosmopolitan" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/people-logo 3.svg" alt="people" class="featured__carousel__item">
+                <img src="assets/img/featured_logos/buzzfeed-logo 4.svg" alt="buzzfeed" class="featured__carousel__item">
+            </div> 
+            
+        </div> 
     </section>
 
     <section class="advantages">
@@ -118,7 +133,29 @@
             </div>
             
         </div>
-        <div class="banner__title">we make ice cream the way it used to be.</div>
+       <div class="banner__title">we make ice cream the way it used to be.</div> 
     </section>
+
+    <section class="new">
+        <div class="new__content">
+            <div class="new__title">
+                <h3 class="new__heading">
+                    <span>NEW</span>
+                    Magic Milkshakes
+                </h3>
+                <div class="new__descr">
+                    Two scoops of magic and one of ice cream?
+                    Introducing delicious milkshakes with our real artisan ice cream.
+                </div>
+            </div>
+            <div class="new__star">
+                <img src="assets/img/round.png" alt="star">
+                <p class="new__star_descr">TRY TODAY</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>

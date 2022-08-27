@@ -31,8 +31,10 @@
         font-size: 80px;
         cursor: pointer;
         &:hover {
-            transform: scale(1.2);
-            transition: 1s ease-out;
+            animation-name: shake;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
         }
         
     }
