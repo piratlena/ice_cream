@@ -10,6 +10,18 @@
     }
 }
 
+@keyframes shake-scoop {
+    from {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(8%);;
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;

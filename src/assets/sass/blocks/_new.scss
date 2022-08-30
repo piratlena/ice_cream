@@ -3,7 +3,8 @@
     background: url('../img/bg_milkshakes.png') no-repeat 50%/cover;
     position: relative;
     &__content {
-        height: 350px;
+        min-height: 350px;
+        position: relative;
         padding:60px 336px 60px 336px;
         background: rgba(255, 255, 255, .5);
         border-bottom: $red-color solid 1px;
@@ -49,7 +50,7 @@
         width: 150px;
         position: absolute;
         rotate: -15deg;
-        top: 20%;
+        top: 18%;
         right: 20%;
         
         font-family: 'Nunito';

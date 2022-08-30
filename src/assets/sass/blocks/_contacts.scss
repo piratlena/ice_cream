@@ -1,0 +1,15 @@
+.contacts {
+    min-height: 900px;
+    background-color: $main-color;
+    &__title {
+        padding-top: 150px;
+        font-weight: 400;
+        font-size: 96px;
+        color: $red-color;
+        text-align: center;
+    }
+    hr {
+        background-color: $text-color-black;
+        
+    }
+}
