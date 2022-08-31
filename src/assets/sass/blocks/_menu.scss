@@ -1,15 +1,14 @@
 .menu {
     min-height: 570px;
-    
     background: $main-color;
-    
-    
+   
     &__sliders {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        transform: translateX(-5%);
+        transform: translateX(-25%);
         margin-top: -250px;
+       
         
     }
     &__item {
@@ -20,4 +19,28 @@
         margin-top: -50px;
         z-index: 4;
     }
+    &__arrow {
+        transform: translateY(-350px);
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__arrow-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        img {
+            width: 100%;
+        }
+    }
+    &__arrow-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        img {
+            width: 100%;
+        }
+}
 }

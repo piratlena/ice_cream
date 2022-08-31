@@ -10,6 +10,15 @@
     }
 }
 
+@keyframes hithere {
+    30% { transform: scale(1); }
+    40% { transform: rotate(-6deg) }
+    60% { transform: rotate(-6deg); }
+    50% { transform: rotate(6deg) ; }
+    70% { transform: rotate(0deg) ; }
+    100% { transform: scale(1); }
+  }
+
 @keyframes shake-scoop {
     from {
         transform: translateY(0%);
@@ -20,6 +29,21 @@
     to {
         transform: translateY(0%);
     }
+}
+
+@keyframes phone {
+    from {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }  
 }
 
 @keyframes moveInLeft {

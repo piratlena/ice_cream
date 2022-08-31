@@ -8,8 +8,62 @@
         color: $red-color;
         text-align: center;
     }
-    hr {
+    &__divider {
+        width: 100%;
+        height: 1px;
+        margin-top: 30px;
         background-color: $text-color-black;
         
+    }
+    &__information {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 100px 30px 100px;
+    }
+    &__address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 616px;
+    }
+
+    &__mark {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    &__city {
+        margin: 0 auto;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 88px;
+        line-height: 114px;
+        font-family: 'Londrina Shadow';
+        color: $red-color;
+    }
+    &__phone {
+        margin: 0 auto;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+        list-style-type: none;
+        list-style: none;
+        color: $red-color;
+        &:hover {
+            text-decoration: none;
+            color: $red-color;
+            animation: phone 0.5s ease 1;
+        }
+    }
+    &__location {
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 360px;
+        font-size: 32px;
+        line-height: 48px;
+        color: $text-color-black;
+        font-family: 'Nunito';
+        text-align: center;
+        font-weight: bold;
     }
 }
