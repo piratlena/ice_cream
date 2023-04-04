@@ -1,0 +1,10 @@
+.footer {
+    height: 130px;
+    background: $main-color;
+    &__copyright {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 38px;
+        text-align: center;
+    }
+}

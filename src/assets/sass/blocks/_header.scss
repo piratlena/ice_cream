@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $main-color;
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__link{
+        display: flex;
+        margin-left: 15px;
+        color:  black;
+        font-family: 'Londrina Shadow';
+        font-weight: 700;
+        font-size: 24px;
+        width: 100px;
+        &:hover {
+            list-style-type: none;
+            text-decoration: none;
+            color: #CC2A41;
+        }
+
+    }
+    &__text{
+        display: block;
+        font-family: 'Londrina Shadow';
+        color:  #CC2A41;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        cursor: pointer;
+        &:hover {
+            animation-name: hithere;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        
+    }
+    &__hamburger {
+        display: none;
+        position: absolute ; 
+        right: 10px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        & span{
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: $red-color;
+            margin-bottom: 2px; 
+            transition: 0.5s all;
+        }
+    &__hamburger_active{
+            margin-bottom: -2px;
+            &:nth-child(1){transform: translateY(3px) rotate(-45deg);}
+                
+            &:nth-child(2){display: none;}
+                
+            &:nth-child(3){transform: translateY(3px) rotate(45deg);}
+                
+        }
+        
+    }
+}

@@ -1,0 +1,43 @@
+.featured {
+    min-height: 400px;
+    background-color: $main-color;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    
+    &__title {
+        font-weight: 900;
+        font-size: 40px;
+        color: $red-color;
+        text-align: center;
+    }
+    &__carousel {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 60px;
+        
+        
+    }
+    &__carousel__items-1 {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        animation: marqueeLine 20s linear infinite;
+    }
+
+     &__carousel__items-2 {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        animation: marqueeLine2 20s linear infinite;
+        animation-delay: 10s;
+
+     } 
+
+
+    & &__carousel__item {
+        display: block;
+        height: 90px;
+        
+        margin-right: 5rem;
+        
+    }
+}

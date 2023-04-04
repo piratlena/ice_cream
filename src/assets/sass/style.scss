@@ -1,0 +1,33 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/font";
+@import "base/variables";
+@import "base/mixins";
+@import "base/animations";
+
+@import "../../../node_modules/swiper/swiper-bundle.css";
+
+* {
+  font-family: "Nunito", sans-serif;
+  font-family: "Londrina Shadow";
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/navigation";
+@import "blocks/button";
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/menu";
+@import "blocks/featured";
+@import "blocks/advantages";
+@import "blocks/banner";
+@import "blocks/new";
+@import "blocks/event";
+@import "blocks/social";
+@import "blocks/contacts";
+@import "blocks/footer";

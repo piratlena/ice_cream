@@ -1,0 +1,26 @@
+.advantages {
+    min-height: 1530px;
+    &__boxes {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        
+    }
+    &__box {
+        border: solid 1px $red-color;
+        background-color: $text-color;
+        &__title{
+            padding: 109px 130px 28px 74px;
+            font-weight: 900;
+            font-size: 64px;
+            color: $red-color;
+        }
+        &__descr {
+            padding-left: 74px;
+            padding-right: 130px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+            font-family: 'Nunito';
+        }
+    }
+} 
